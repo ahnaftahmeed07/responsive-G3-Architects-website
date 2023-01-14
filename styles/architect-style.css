@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* Common Styles */
+
+* {
+    font-family: 'Work Sans';
+}
+
+.btn-primary {
+    width: 180px;
+    height: 65px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styles */
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 225px;
+    color: #131313;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+    margin-right: 230px;
+}
+
+nav li {
+    list-style: none;
+    color: #424242;
+
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-info {
+    margin-top: 60px;
+    margin-right: 530px;
+    margin-left: 530px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #131313;
+
+}
+
+.section-text {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+
+.btn-banner {
+    margin: 30px 870px 50px 870px;
+}
+
+.banner-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px; ;
+    width: 50%;
+    width: 1440px;
+    height: 700px;
+    border-radius: 8px;
+}
+
+/* Quick List Section Styles */
+
+.quick-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin: 85px 70px 130px 300px;
+}
+.section-container{
+    margin-right: 300px;
+}
+.quick-title{
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.span-1{
+    color: #727272;
+}
+.span-2{
+    font-weight: 700;
+}
+.span-3{
+    font-weight: 700;
+    color: #FF900E;
+}
+.quick-text{
+    text-align: left;
+    margin-bottom: 30px;
+}
