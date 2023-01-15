@@ -40,7 +40,8 @@
 
 .feature-text,
 .feature-title-info,
-.fact-des, #subtitle{
+.fact-des,
+#subtitle {
     font-size: 16px;
     color: #727272;
 }
@@ -299,12 +300,13 @@ nav li {
 
 /* Our Sponsors styles */
 
-.sponsor-info{
+.sponsor-info {
     width: 540px;
     text-align: center;
     margin: 120px 680px 50px 680px;
 }
-.sponsor-titles h2{
+
+.sponsor-titles h2 {
     font-weight: 700;
     font-size: 45px;
     color: #131313;
@@ -312,10 +314,172 @@ nav li {
 }
 
 
-.sponsor-logos{
+.sponsor-logos {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
     margin-bottom: 20px;
     padding: 40px;
+}
+
+/* Footer Styles */
+
+.footer {
+    width: 1440px;
+    height: 60px;
+    background-color: #FFF4E7;
+    margin: 60px 240px 50px 240px;
+    padding: 7px 30px 7px 30px;
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width:688px) {
+
+    /* Header */
+    .title {
+        text-align: left;
+        font-size: 30px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-info {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .btn-primary {
+        margin: 10px;
+    }
+
+    /* Quick List */
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 5px;
+    }
+
+    .quick-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .section-container{
+        width: 100%;
+        margin: 5px;
+    }
+
+    /* Feature Section */
+
+    .feature-section {
+        flex-direction: column;
+    }
+
+    .section-details {
+        width: 350px;
+        margin: 5px;
+    }
+
+    .feature-image-part img {
+        width: 100%;
+    }
+
+    .btn-secondary {
+        text-align: center;
+        width: 240px;
+        height: 140px;
+        padding: 35px;
+        font-size: 15px;
+        transform: none;
+        font-size: 20px;
+    }
+
+    .span-4 {
+        font-size: 35px;
+    }
+
+    .feature-image-part {
+        width: 350px;
+        margin: 5px;
+    }
+
+    /* Some Fact Section */
+
+    .fact-title {
+        margin: 5px;
+    }
+
+    .rewards {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        grid-row-gap: 20px;
+    }
+
+    /* Brilliant Architecture Section */
+
+    .section-title {
+        font-size: 35px;
+        color: black;
+        margin: 5px;
+        margin-bottom: 25px;
+    }
+    
+    .architects {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .architect {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .architect img {
+        width: 86px;
+        height: 86px;
+    }
+    
+    .architect-name {
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+    /* Sponsors Section */
+
+    .sponsor-info {
+        width: 100%;
+        text-align: left;
+        margin: 5px;
+    }
+    .sponsor-logos {
+        flex-direction: column;
+        padding: 5px;
+    }
+    .sponsor-logos .logo{
+        margin-bottom: 15px;
+    }
+
+    /* Footer Section */
+    
+    .footer{
+        width: 100%;
+        margin: 5px;
+        padding: 0;
+    }
+
+
 }
