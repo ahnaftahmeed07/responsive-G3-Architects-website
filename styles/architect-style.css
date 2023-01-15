@@ -18,7 +18,8 @@
     text-align: center;
     padding: 20px;
 }
-.btn-secondary{
+
+.btn-secondary {
     transform: translate(-30px, -90px);
     width: 340px;
     height: 200px;
@@ -31,9 +32,17 @@
     font-size: 25px;
     text-align: center;
 }
-.span-4{
+
+.span-4 {
     font-weight: 700;
     font-size: 55px;
+}
+
+.feature-text,
+.feature-title-info,
+.fact-des, #subtitle{
+    font-size: 16px;
+    color: #727272;
 }
 
 /* Header Styles */
@@ -106,7 +115,8 @@ nav li {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 45px; ;
+    margin-bottom: 45px;
+    ;
     width: 50%;
     width: 1440px;
     height: 700px;
@@ -115,76 +125,197 @@ nav li {
 
 /* Quick List Section Styles */
 
-.quick-list{
+.quick-list {
     display: flex;
     align-items: center;
 }
-.container{
+
+.container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     margin: 85px 70px 130px 300px;
 }
-.section-container{
+
+.section-container {
     margin-right: 300px;
 }
-.quick-title{
+
+.quick-title {
     font-weight: 500;
     font-size: 45px;
     margin-bottom: 0;
 }
-.span-1{
+
+.span-1 {
     color: #727272;
 }
-.span-2{
+
+.span-2 {
     font-weight: 700;
 }
-.span-3{
+
+.span-3 {
     font-weight: 700;
     color: #FF900E;
 }
-.quick-text{
+
+.quick-text {
     text-align: left;
     margin-bottom: 30px;
 }
 
 /* Feature you will love styles */
 
-.feature-section{
+.feature-section {
     display: flex;
     align-items: center;
     margin-top: 0;
     margin-bottom: 110px;
 }
-.section-details{
+
+.section-details {
     width: 586px;
     margin-left: 240px;
     margin-right: 145px;
 }
-.section-details h2{
+
+.section-details h2 {
     font-weight: 700;
     font-size: 45px;
     color: black;
-    border-left: 5px solid #FF900E ;
+    border-left: 5px solid #FF900E;
     padding: 20px;
 }
-.features{
+
+.features {
     background-color: whitesmoke;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     padding: 30px;
     margin-top: 50px;
 }
-.feature-title{
+
+.feature-title {
     font-size: 20px;
     color: black;
 }
-.feature-text, .feature-title-info{
-    font-size: 16px;
-    color: #727272;
-}
-.feature-image-part{
+
+.feature-image-part {
     width: 800px;
     margin-right: 240px;
+}
+
+/* Some Facts styles */
+
+.rewards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 80px 290px 150px 290px;
+    grid-column-gap: 20px;
+}
+
+.fact-title {
+    margin-left: 240px;
+}
+
+.fact-title h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+}
+
+.fact:hover {
+    width: 300px;
+    height: 300px;
+    border: 5px solid crimson;
+    transform: rotate(360deg);
+}
+
+.fact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 20px;
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+.fact div h2 {
+    font-size: 45px;
+    color: #424242;
+    margin: 5px;
+}
+
+.fact div p {
+    font-size: 20px;
+    color: #727272;
+    margin: 5px;
+}
+
+/* Architect Styles */
+
+.top-architects {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+    margin-left: 240px;
+    margin-bottom: 80px;
+}
+
+.architects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-left: 240px;
+    margin-bottom: 40px;
+}
+
+.architect {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.architect img {
+    width: 86px;
+    height: 86px;
+}
+
+.architect-name {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+/* Our Sponsors styles */
+
+.sponsor-info{
+    width: 540px;
+    text-align: center;
+    margin: 120px 680px 50px 680px;
+}
+.sponsor-titles h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+
+
+.sponsor-logos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 40px;
 }
