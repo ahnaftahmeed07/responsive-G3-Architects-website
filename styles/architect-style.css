@@ -10,6 +10,7 @@
     width: 180px;
     height: 65px;
     background: #FF900E;
+    border: none;
     border-radius: 8px;
     color: white;
     font-weight: 700;
@@ -338,6 +339,7 @@ nav li {
 @media only screen and (max-width:688px) {
 
     /* Header */
+
     .title {
         text-align: left;
         font-size: 30px;
@@ -474,7 +476,7 @@ nav li {
     }
 
     /* Footer Section */
-    
+
     .footer{
         width: 100%;
         margin: 5px;
